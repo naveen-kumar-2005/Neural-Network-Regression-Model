@@ -121,17 +121,20 @@ print(f'Prediction: {prediction}')
 ```
 ## Dataset Information
 
-![alt text](Images/image.png)
+<img width="411" height="441" alt="image" src="https://github.com/user-attachments/assets/d94a5cb2-0651-4d59-b21c-299ef7553635" />
+
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
-![alt text](<Images/image copy.png>)
+<img width="708" height="559" alt="image" src="https://github.com/user-attachments/assets/682cfe4e-4dbd-490c-92a8-bc29f5b944a8" />
+
 
 ### New Sample Data Prediction
 
-![alt text](<Images/image copy 2.png>)
+<img width="383" height="82" alt="image" src="https://github.com/user-attachments/assets/839da672-6a10-4b6e-b477-3d79fb40e01a" />
+
 
 ## RESULT
 
