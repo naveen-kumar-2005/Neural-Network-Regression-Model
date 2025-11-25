@@ -89,7 +89,7 @@ Venkatanathan=NeuralNet()
 criterion=nn.MSELoss()
 optimizer=torch.optim.RMSprop(Venkatanathan.parameters(),lr=0.001)
 
-def train_model(Venkatanathan,X_train,y_train,criterion,optimizer,epochs=1000):
+def train_model(Naveen,X_train,y_train,criterion,optimizer,epochs=1000):
   for epoch in range(epochs):
     optimizer.zero_grad()
     loss=criterion(Venkatanathan(X_train),y_train)
@@ -116,7 +116,7 @@ plt.title("Loss during Training")
 plt.show()
 
 X_n1_1 = torch.tensor([[5.5]], dtype=torch.float32)
-prediction = Venkatanathan(torch.tensor(scaler.transform(X_n1_1), dtype=torch.float32)).item()
+prediction = naveen(torch.tensor(scaler.transform(X_n1_1), dtype=torch.float32)).item()
 print(f'Prediction: {prediction}')
 ```
 ## Dataset Information
